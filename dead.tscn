@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://rbdrkrvyitpv"]
+
+[node name="Dead" type="Node2D"]
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_left = 574.0
+offset_top = 298.0
+offset_right = 1814.0
+offset_bottom = 678.0
+theme_override_font_sizes/font_size = 300
+text = "ur dead"

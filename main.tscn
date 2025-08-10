@@ -1,3 +1,51 @@
-[gd_scene format=3 uid="uid://c6wsafydq7ne7"]
+[gd_scene load_steps=8 format=3 uid="uid://c6wsafydq7ne7"]
+
+[ext_resource type="Script" path="res://gah.gd" id="1_nbqn5"]
+[ext_resource type="Texture2D" uid="uid://db6qpaqhlk0ed" path="res://321434.png" id="2_w2t8s"]
+[ext_resource type="Texture2D" uid="uid://cg1gvjls3tm2a" path="res://306629-200.png" id="3_w50xw"]
+[ext_resource type="Texture2D" uid="uid://dnw1c080411fu" path="res://image-1.png" id="4_ocygd"]
+[ext_resource type="Texture2D" uid="uid://bw1lq1i3v54qp" path="res://Image Background Removed.png" id="5_tb0a7"]
+[ext_resource type="Texture2D" uid="uid://dgifu673no0gy" path="res://image (1).png" id="6_6dt05"]
+[ext_resource type="Texture2D" uid="uid://ca8b2qaeq4gq" path="res://border.png" id="7_h40jt"]
 
 [node name="Main" type="Node2D"]
+script = ExtResource("1_nbqn5")
+
+[node name="321434" type="Sprite2D" parent="."]
+position = Vector2(258, 312)
+scale = Vector2(0.4165, 0.420875)
+texture = ExtResource("2_w2t8s")
+
+[node name="306629-200" type="Sprite2D" parent="."]
+position = Vector2(935, 298)
+scale = Vector2(1.6825, 1.9675)
+texture = ExtResource("3_w50xw")
+
+[node name="Image-1" type="Sprite2D" parent="."]
+position = Vector2(2145, 1000)
+scale = Vector2(1.48203, 1.53922)
+texture = ExtResource("4_ocygd")
+
+[node name="ImageBackgroundRemoved" type="Sprite2D" parent="."]
+position = Vector2(2218, 1040)
+scale = Vector2(0.4627, 0.537815)
+texture = ExtResource("5_tb0a7")
+
+[node name="Image(1)" type="Sprite2D" parent="."]
+position = Vector2(2168, 1001)
+scale = Vector2(0.306442, 0.283468)
+texture = ExtResource("6_6dt05")
+
+[node name="Border" type="Sprite2D" parent="Image(1)"]
+position = Vector2(-65.2661, 81.1379)
+scale = Vector2(0.260245, 0.280455)
+texture = ExtResource("7_h40jt")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 1279.0
+offset_top = 77.0
+offset_right = 2719.0
+offset_bottom = 400.0
+rotation = 0.0147529
+theme_override_font_sizes/font_size = 200
+text = "pres v to patch"

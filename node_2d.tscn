@@ -20,10 +20,9 @@ offset_top = 411.0
 offset_right = 1836.0
 offset_bottom = 617.0
 theme_override_font_sizes/font_size = 30
-text = "Steering: 1: Turn left; 2: Turn right
-Watching: 0: Switch views; [ : Look left; ] : Look right
-Patching: WASD: moving; Q: Apply wood; E: Nail
-"
+text = "steering: 1: left; 2:right
+look: 0 to switch modes
+patch: v to patch"
 editable = false
 
 [node name="TextEdit3" type="TextEdit" parent="."]
@@ -32,7 +31,8 @@ offset_top = 717.0
 offset_right = 1885.0
 offset_bottom = 848.0
 theme_override_font_sizes/font_size = 30
-text = "You're stuck on a run-down ship, your goal? To make it back to the port city alive."
+text = "You're stuck on a run-down ship, your goal? to be alive as loing as psoisble
+"
 editable = false
 wrap_mode = 1
 
